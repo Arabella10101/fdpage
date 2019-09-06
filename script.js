@@ -1,4 +1,4 @@
-var btndark =document.getElementById("dark");
+/* var btndark =document.getElementById("dark");
 var jb1= document.getElementById("j1");
 var jb2= document.getElementById("j2");
 
@@ -23,6 +23,17 @@ var jb2= document.getElementById("j2");
         
     }
 })
+*/
+
+$("button").click(function(){
+    $(".jumbotron").toggleClass("jts");
+    $(".jumbotron").toggleClass("jts2");
+    $(this).toggleClass("btn-outline-light");
+    $(this).toggleClass("btn-outline-dark");
+    $(this).text($(this).text() == 'Light' ? 'Dark' : "Light");
+})
+
+
 
 var allq=$("blockquote");
 var cq=0;
