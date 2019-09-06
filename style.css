@@ -1,10 +1,11 @@
-#jts1{
-    background-color: purple;
-}
-#jts2{
+
+.jts{
     background-color:plum;
 }
 
 #img1{
     border-radius: 100px;
+}
+.jts2{
+    background-color:purple;
 }
