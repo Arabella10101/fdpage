@@ -12,3 +12,9 @@
 #ft{
     color: black;
 }
+blockquote{
+    display: none;
+}
+blockquote:first-of-type{
+    display: block;
+}

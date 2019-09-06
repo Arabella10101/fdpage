@@ -20,6 +20,25 @@ var jb2= document.getElementById("j2");
         btndark.textContent="dark";
         btndark.classList.remove("btn-outline-light");
         btndark.classList.add("btn-outline-dark");
+        
     }
-
 })
+
+var allq=$("blockquote");
+var cq=0;
+
+function changeq()
+{
+    $(allq[cq]).fadeOut(200, function(){
+        if(cq==allq.length-1)
+        {
+            cq=0;
+        }
+        else{
+            cq++;
+        }
+        $(allq[cq]).fadeIn(200);
+    });
+    
+}
+    $("button").click(changeq());
