@@ -40,7 +40,7 @@ var cq=0;
 
 function changeq()
 {
-    $(allq[cq]).fadeOut(200, function(){
+    $(allq[cq]).fadeOut(300, function(){
         if(cq==allq.length-1)
         {
             cq=0;
@@ -48,7 +48,7 @@ function changeq()
         else{
             cq++;
         }
-        $(allq[cq]).fadeIn(200);
+        $(allq[cq]).fadeIn(300);
     });
     
 }
