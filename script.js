@@ -41,4 +41,4 @@ function changeq()
     });
     
 }
-    $("button").click(changeq());
+    var qt=setInterval(changeq, 3000);
